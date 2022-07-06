@@ -1,0 +1,24 @@
+.background {
+  background-color: rgb(242, 239, 245);
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  gap: 25px;
+}
+
+.list a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+@media(max-width: 840px) {
+  
+}

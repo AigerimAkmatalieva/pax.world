@@ -1,0 +1,34 @@
+.Header {
+  position: relative;
+  margin: 0;
+}
+.Header h1 {
+ color: rgb(255, 255, 255);
+ margin: 4rem 0 0;
+}
+.Header p {
+  color: white;
+  margin: 2rem 0;
+}
+.content {
+  position: absolute;
+  top: 0;
+  left: 15%;
+  font-size: 65px;
+
+}
+.content h1 {
+  color: white;
+}
+.background p {
+  position: absolute;
+  bottom: 15%;
+  right: 0;
+  max-width: 250px;
+  padding-right: 1rem;
+}
+@media (max-width:650px) {
+  .Header h1 {
+    font-size: 50px;
+  }
+}

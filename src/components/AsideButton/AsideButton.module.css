@@ -1,0 +1,42 @@
+.AsideButton.left {
+  position: fixed;
+
+  top: 50%;
+  left: -34px;
+  transform: rotate(-90deg);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  background-color: aqua;
+  border-radius: .5rem; border-color: aqua;
+  z-index: 1;
+  width: 150px;
+  height: 70px;
+}
+
+.AsideButton span {
+  display: inline-block;
+  padding: .5rem;
+}
+
+.AsideButton.right {
+  position: fixed;
+
+  top: 50%;
+  right: -100px;
+  
+  transform: rotate(90deg);
+  /* display: inline-flex; */
+  /* align-items: center;
+  justify-content: center; */
+  gap: 5px;
+
+  background-color: black;
+  color: white;
+  border-radius: .5rem;
+  z-index: 1;
+  width: 290px;
+  height: 70px;
+}

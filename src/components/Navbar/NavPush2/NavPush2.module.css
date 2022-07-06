@@ -1,0 +1,20 @@
+.NavPush2 {
+  flex: 1 1 0;
+  font-size: 25px;
+  font-weight: 600;
+  padding: .5rem;
+  margin-bottom: 5px;
+}
+
+.NavPush2 a {
+  border-bottom: 2px solid transparent;
+}
+
+a.active {
+  border-bottom-color: black;
+}
+@media(max-width: 840px) {
+  .NavPush2 {
+    justify-content: flex-start;
+  }
+}

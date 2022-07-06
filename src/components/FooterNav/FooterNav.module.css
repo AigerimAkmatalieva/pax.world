@@ -1,0 +1,43 @@
+.FooterNav {
+  background-color: rgba(241, 241, 255, 0);
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  
+}
+.content {
+  display: flex;
+  align-items: center;
+}
+.list {
+  display: flex;
+  list-style-type: none;
+  flex: 1 1 0;
+
+  gap: 25px;
+
+  font-size: 25px;
+
+}
+.list li a {
+  color: black;
+
+}
+
+.list_2 {
+  display: flex;
+  list-style-type: none;
+
+  gap: 10px;
+
+}
+.list_2 li a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+}
