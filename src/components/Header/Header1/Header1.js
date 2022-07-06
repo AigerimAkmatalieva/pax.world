@@ -1,5 +1,5 @@
 import classes from "./Header1.module.css";
-import img from "../../assets/header2.svg"
+import img from "../../../assets/header2.svg"
 
 function Header1() {
   return (
@@ -14,7 +14,6 @@ function Header1() {
               premiere
               <img src={img} alt="img" />
               landsale</h1>
-
           </div>
           <p className={classes.p_left}>Less is more. There are two ways to own land: outright purchase and through participation in our creator competitions.</p>
         </div>

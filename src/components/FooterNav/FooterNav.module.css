@@ -22,7 +22,7 @@
 
 }
 .list li a {
-  color: black;
+  color: white;
 
 }
 
@@ -37,7 +37,7 @@
   text-decoration: none;
   font-size: 18px;
   padding: 1rem 2rem;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   border-radius: 1rem;
 }

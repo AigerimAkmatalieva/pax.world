@@ -3,25 +3,25 @@ import NavItem from "./NavItem/NavItem";
 import NavPush from "./NavPush/NavPush";
 import NavPush2 from "./NavPush2/NavPush2";
 import NavToggle from "./NavToggle/NavToggle";
-function Navbar({toggle}) {
-  return ( 
+function Navbar({ toggle }) {
+  return (
     <div className={classes.Navbar}>
       <div className={classes.background}>
         <div className="container">
           <div className={classes.content}>
             <ul className={classes.list}>
-              
-              <NavItem url="/lane-sale" active>
+
+              <NavItem url="/landsale" active>
                 Lane Sale
               </NavItem>
               <NavItem url="/communication">
                 Communication
               </NavItem>
-              <NavPush url="/build-your-own">
-              Build your own
+              <NavPush url="/buildyourown">
+                Build your own
               </NavPush>
-            
-              
+
+
               <NavPush2 active url="/Pax.World">
                 Pax.World
               </NavPush2>
@@ -30,15 +30,15 @@ function Navbar({toggle}) {
                 Governance
               </NavItem >
               <NavItem url="/roadmap">
-              Roadmap
+                Roadmap
               </NavItem>
               <NavItem url="/partners">
-              Partners
+                Partners
 
               </NavItem>
 
-              <NavToggle toggle={toggle}/>
-              
+              <NavToggle toggle={toggle} />
+
             </ul>
           </div>
         </div>

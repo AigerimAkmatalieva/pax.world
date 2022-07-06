@@ -4,6 +4,7 @@ import Drawer from "../Drawer/Drawer";
 import FooterNav from "../FooterNav/FooterNav";
 import Toolbar from "../Toolbar/Toolbar";
 import classes from "./Layout.module.css";
+import Footer from "../Footer/Footer"
 
 function Layout() {
   const [switcher, setSwitcher] = useState(false);
@@ -22,8 +23,8 @@ function Layout() {
       <AsideButton right>
         Not Honors
       </AsideButton>
-
       <FooterNav />
+      <Footer/>
     </div>
   );
 }
