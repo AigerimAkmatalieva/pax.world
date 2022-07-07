@@ -1,5 +1,4 @@
 
-import FooterNav from "../FooterNav/FooterNav";
 import Navbar from "../Navbar/Navbar";
 import classes from "./Toolbar.module.css";
 
