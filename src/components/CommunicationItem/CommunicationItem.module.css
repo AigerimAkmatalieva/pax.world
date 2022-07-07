@@ -1,0 +1,16 @@
+.wrapper {
+  padding: 100px;
+  display: flex;
+  height: 60vh;
+}
+.img img {
+  width: 560px;
+  border-radius: 20px;
+}
+.card {
+  width: 480px;
+  padding: 0 100px;
+}
+.card h1 {
+  font-size: 40px;
+}

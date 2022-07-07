@@ -1,11 +1,9 @@
-import img from "../assets/partners.png"
+import PartnersItem from "../components/PartnersItem/PartnerItem";
 
 function Partners() {
   return ( 
     <div>
-     <h1>Partners</h1>
-     <hr />
-     <img alt="#" src={img}/>
+     <PartnersItem />
     </div>
    );
 }

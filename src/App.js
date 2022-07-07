@@ -10,8 +10,6 @@ import Header from "./components/Header/Header";
 import Landsale from "./pages/Landsale";
 import FooterNav from "./components/FooterNav/FooterNav";
 import Footer from "./components/Footer/Footer";
-import Header1 from "./components/Header/Header1/Header1";
-import Header2 from "./components/Header/Header2/Header2";
 
 function App() {
   return (
@@ -27,8 +25,8 @@ function App() {
         </Routes>
       </Layout>
       <Header />
-      <Header1 />
-      <Header2/>
+      <FooterNav />
+      <Footer/>
     </div>
   );
 }

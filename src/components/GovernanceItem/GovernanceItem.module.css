@@ -1,0 +1,44 @@
+.GovernanceItem {
+  color: black;
+  display: flex;
+  height: 70vh;
+  transition: top 1s ease-in-out;
+  animation: render 5s ease-in-out infinite;
+  position: relative;
+  margin: 50px 0;
+  border-radius: 20px;
+}
+@keyframes render {
+  0% {
+    background-color: #E56632;
+  }
+  24% {
+    background-color: #FFAB87;
+  }
+  100% {
+    background-color: #B5D7F1;
+  }
+}
+.background {
+  background-image: url(../../assets//header3.svg);
+  object-fit: cover;
+ background-size: 500px;
+ width: 500px;
+ 
+}
+.background h1 {
+  font-size: 5.25em;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+}
+.p_item {
+  width: 400px;
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+  font-size: 1.5em;
+    line-height: 1.4;
+    font-weight: 600;
+    letter-spacing: -1px;
+}

@@ -35,8 +35,6 @@ function Drawer({state, toggle}) {
                 <li>
                   <Link to="/ Partners">Partners</Link>
                 </li>
-
-                
               </ul>
             </div>
           </div>

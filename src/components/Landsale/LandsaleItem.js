@@ -1,7 +1,7 @@
-import classes from "./Header1.module.css";
-import img from "../../../assets/header2.svg"
+import classes from "./LandsaleItem.module.css";
+import img from "../../assets/header2.svg"
 
-function Header1() {
+function LandsaleItem() {
   return (
     <header className={classes.Header_hero}>
       <div className={classes.background}>
@@ -23,4 +23,4 @@ function Header1() {
   );
 }
 
-export default Header1;
+export default LandsaleItem;

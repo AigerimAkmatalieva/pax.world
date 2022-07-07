@@ -1,11 +1,11 @@
 
-import Header1 from "../components/Header/Header1/Header1";
+import LandsaleItem from "../components/Landsale/LandsaleItem";
 
 
 function Landsale() {
   return (
     <div>
-      <Header1/>
+<LandsaleItem/>
     </div>
   );
 }
