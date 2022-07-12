@@ -10,6 +10,7 @@ import Landsale from "./pages/Landsale";
 import FooterNav from "./components/FooterNav/FooterNav";
 import Footer from "./components/Footer/Footer";
 
+// i joined ☺
 function App() {
   return (
     <div className="App">
