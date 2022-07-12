@@ -11,6 +11,10 @@ import FooterNav from "./components/FooterNav/FooterNav";
 import Footer from "./components/Footer/Footer";
 
 // i joined ☺
+
+// i created new branch 
+// and name the new branch is feature
+
 function App() {
   return (
     <div className="App">
